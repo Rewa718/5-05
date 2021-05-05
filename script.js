@@ -1,7 +1,7 @@
-document.getElementById('calculate').addEventListener('click', square)
+document.getElementById('calculate').addEventListener('click', myFunction)
 
-function square () {
-  let input = parseInt(document.getElementById('input').value)
-  let number = num * num
-  document.querySelector('.answer').innerText = 'The Answer = ' + answer
+function myFunction () {
+  let number = parseInt(document.getElementById('input').value)
+  let square = num * num
+  document.querySelector('.answer').innerText = 'The Answer = ' + ans
 }
